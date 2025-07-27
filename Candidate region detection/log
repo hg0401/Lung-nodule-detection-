@@ -1,0 +1,155 @@
+using gpu 0
+Current memory allocated: 93494272 bytes,beforetrain
+Epoch 0, current learning rate: 0.0001,Using optimizer: Adam
+Train:      tpr 56.93, tnr 98.90, total pos 3559, total neg 14236, time 2101.31
+loss 0.0883, classify loss 0.0532, regress loss 0.0081, 0.0083, 0.0088, 0.0099
+precision 92.80806229958772
+****************************
+Epoch 0, avg loss 0.08825167268514633
+Validation: tpr 43.27, tnr 99.99970858, total pos 342, total neg 32942184, time 114.26
+loss 0.0307, classify loss 0.0003, regress loss 0.0072, 0.0069, 0.0048, 0.0116
+precision 60.65573770491803
+**************valiloss 0.030705399811267853
+Validation loss decreased (0.030705 --> 0.030705).  Saving model ...
+save model on epoch 0
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+save model on epoch 0
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+Epoch 1, current learning rate: 0.0001,Using optimizer: Adam
+Train:      tpr 82.50, tnr 98.96, total pos 3559, total neg 14236, time 2018.45
+loss 0.0406, classify loss 0.0195, regress loss 0.0042, 0.0048, 0.0054, 0.0068
+precision 95.20103761348898
+****************************
+Epoch 1, avg loss 0.04062243178486824
+Validation: tpr 78.07, tnr 99.99914388, total pos 342, total neg 32939386, time 98.70
+loss 0.0214, classify loss 0.0001, regress loss 0.0034, 0.0035, 0.0050, 0.0094
+precision 48.63387978142077
+**************valiloss 0.021399356424808502
+Validation loss decreased (0.030705 --> 0.021399).  Saving model ...
+save model on epoch 1
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+save model on epoch 1
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+Epoch 2, current learning rate: 0.0001,Using optimizer: Adam
+Train:      tpr 86.74, tnr 98.90, total pos 3559, total neg 14236, time 1987.48
+loss 0.0333, classify loss 0.0159, regress loss 0.0036, 0.0039, 0.0046, 0.0054
+precision 95.16029593094945
+****************************
+Epoch 2, avg loss 0.03333598002791405
+Validation: tpr 88.89, tnr 99.99797771, total pos 342, total neg 32933010, time 96.98
+loss 0.0221, classify loss 0.0001, regress loss 0.0037, 0.0024, 0.0049, 0.0111
+precision 31.34020618556701
+**************valiloss 0.022072909399867058
+EarlyStopping counter: 1 out of 40
+save model on epoch 2
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+Epoch 3, current learning rate: 0.0001,Using optimizer: Adam
+Train:      tpr 90.22, tnr 99.08, total pos 3559, total neg 14236, time 1992.68
+loss 0.0288, classify loss 0.0123, regress loss 0.0031, 0.0037, 0.0045, 0.0051
+precision 96.08019150209455
+****************************
+Epoch 3, avg loss 0.028835291042923927
+Validation: tpr 90.06, tnr 99.99797096, total pos 342, total neg 32921924, time 90.89
+loss 0.0186, classify loss 0.0001, regress loss 0.0030, 0.0041, 0.0045, 0.0069
+precision 31.557377049180328
+**************valiloss 0.018625251948833466
+Validation loss decreased (0.021399 --> 0.018625).  Saving model ...
+save model on epoch 3
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+save model on epoch 3
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+Epoch 4, current learning rate: 0.0001,Using optimizer: Adam
+Train:      tpr 91.63, tnr 99.00, total pos 3559, total neg 14236, time 2023.49
+loss 0.0266, classify loss 0.0108, regress loss 0.0030, 0.0036, 0.0042, 0.0050
+precision 95.79905992949472
+****************************
+Epoch 4, avg loss 0.026571419090032578
+Validation: tpr 88.30, tnr 99.99857871, total pos 342, total neg 32927800, time 106.19
+loss 0.0167, classify loss 0.0000, regress loss 0.0027, 0.0035, 0.0031, 0.0073
+precision 39.22077922077922
+**************valiloss 0.016659431159496307
+Validation loss decreased (0.018625 --> 0.016659).  Saving model ...
+save model on epoch 4
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+Epoch 5, current learning rate: 0.0001,Using optimizer: SGD
+Train:      tpr 93.79, tnr 99.14, total pos 3559, total neg 14236, time 2026.94
+loss 0.0210, classify loss 0.0085, regress loss 0.0024, 0.0029, 0.0037, 0.0034
+precision 96.44611383993066
+****************************
+Epoch 5, avg loss 0.02095162309706211
+Validation: tpr 90.35, tnr 99.99884591, total pos 342, total neg 32926436, time 95.94
+loss 0.0148, classify loss 0.0000, regress loss 0.0026, 0.0028, 0.0036, 0.0057
+precision 44.847605224963715
+**************valiloss 0.014795618131756783
+Validation loss decreased (0.016659 --> 0.014796).  Saving model ...
+save model on epoch 5
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+save model on epoch 5
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+Epoch 6, current learning rate: 0.0001,Using optimizer: SGD
+Train:      tpr 94.80, tnr 99.29, total pos 3559, total neg 14236, time 2001.02
+loss 0.0186, classify loss 0.0070, regress loss 0.0021, 0.0027, 0.0035, 0.0032
+precision 97.09352517985612
+****************************
+Epoch 6, avg loss 0.018581252545118332
+Validation: tpr 90.35, tnr 99.99830025, total pos 342, total neg 32946092, time 93.87
+loss 0.0145, classify loss 0.0000, regress loss 0.0024, 0.0030, 0.0037, 0.0054
+precision 35.558112773302646
+**************valiloss 0.014462786726653576
+Validation loss decreased (0.014796 --> 0.014463).  Saving model ...
+save model on epoch 6
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+save model on epoch 6
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+Epoch 7, current learning rate: 0.0001,Using optimizer: SGD
+Train:      tpr 95.25, tnr 99.37, total pos 3559, total neg 14236, time 2017.02
+loss 0.0178, classify loss 0.0061, regress loss 0.0022, 0.0029, 0.0034, 0.0032
+precision 97.41379310344827
+****************************
+Epoch 7, avg loss 0.017767513170838356
+Validation: tpr 92.69, tnr 99.99821471, total pos 342, total neg 32935784, time 91.56
+loss 0.0147, classify loss 0.0000, regress loss 0.0025, 0.0031, 0.0032, 0.0058
+precision 35.027624309392266
+**************valiloss 0.014713112264871597
+EarlyStopping counter: 1 out of 40
+save model on epoch 7
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+Epoch 8, current learning rate: 0.0001,Using optimizer: SGD
+Train:      tpr 95.67, tnr 99.34, total pos 3559, total neg 14236, time 2059.28
+loss 0.0177, classify loss 0.0064, regress loss 0.0022, 0.0027, 0.0033, 0.0031
+precision 97.31351814804229
+****************************
+Epoch 8, avg loss 0.01768745854496956
+Validation: tpr 92.98, tnr 99.99780705, total pos 342, total neg 32923642, time 89.38
+loss 0.0136, classify loss 0.0000, regress loss 0.0027, 0.0027, 0.0027, 0.0054
+precision 30.576923076923077
+**************valiloss 0.013573944568634033
+Validation loss decreased (0.014463 --> 0.013574).  Saving model ...
+save model on epoch 8
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+save model on epoch 8
+Model saved to: U-Net0111_aRes_CMFA12_MC135123w/
+Epoch 9, current learning rate: 0.0001,Using optimizer: SGD
+Train:      tpr 95.73, tnr 99.34, total pos 3559, total neg 14236, time 2045.59
+loss 0.0176, classify loss 0.0063, regress loss 0.0021, 0.0027, 0.0034, 0.0031
+precision 97.31505284204513
+****************************
+Epoch 9, avg loss 0.017586572095751762
+Validation: tpr 90.35, tnr 99.99873630, total pos 342, total neg 32919200, time 92.87
+loss 0.0145, classify loss 0.0000, regress loss 0.0028, 0.0028, 0.0036, 0.0052
+precision 42.62068965517241
+**************valiloss 0.01454414427280426
+EarlyStopping counter: 1 out of 40
+Epoch 10, current learning rate: 0.0001,Using optimizer: SGD
+Train:      tpr 95.59, tnr 99.42, total pos 3559, total neg 14236, time 1995.22
+loss 0.0171, classify loss 0.0059, regress loss 0.0022, 0.0026, 0.0033, 0.0031
+precision 97.61836441893831
+****************************
+Epoch 10, avg loss 0.017148466780781746
+Validation: tpr 90.64, tnr 99.99810351, total pos 342, total neg 32902918, time 92.26
+loss 0.0146, classify loss 0.0000, regress loss 0.0028, 0.0027, 0.0040, 0.0051
+precision 33.190578158458244
+**************valiloss 0.01458936557173729
+EarlyStopping counter: 2 out of 40
+Epoch 11, current learning rate: 0.0001,Using optimizer: SGD
+Train:      tpr 96.12, tnr 99.37, total pos 3559, total neg 14236, time 1990.44
